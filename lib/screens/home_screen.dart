@@ -62,8 +62,8 @@ class HomeScreen extends StatelessWidget {
                                               ]),
                                           child: Padding(
                                               padding: const EdgeInsets.all(10),
-                                              child: 
-                                              Image.network(controller.coinsList[index].image)),
+                                              child: Image.network(controller
+                                                  .coinsList[index].image)),
                                         ),
                                         const SizedBox(
                                           width: 20,
@@ -119,4 +119,5 @@ class HomeScreen extends StatelessWidget {
           )),
         ));
   }
+  //hello
 }
